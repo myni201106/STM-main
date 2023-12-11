@@ -1,0 +1,18 @@
+/* Css cho trang mindmap */
+#layout {
+  width: 1230px;
+}
+#jsmind_nav {
+  width: 210px;
+  height: 600px;
+  border: solid 1px #ccc;
+  overflow: auto;
+  float: left;
+}
+#jsmind_container {
+  float: left;
+  width: 1200px;
+  height: 500px;
+  border: solid 1px #ccc;
+  background: #f4f4f4;
+}

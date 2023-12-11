@@ -1,0 +1,15 @@
+https://github.com/web-padawan/vanilla-colorful
+thêm công cụ đổi màu cho node
+sử dụng  set_node_color: function (nodeid, bgcolor, fgcolor) để đổi màu
+        // Bo sung phuong thuoc change node color
+        set_node_background_color:function () {
+            this.view._set_node_background_color();
+        },
+
+        _set_node_background_color: function () {
+            var nodes = this.jm.mind.nodes;
+            for (var nodeid in nodes) {
+                nodes[nodeid]._data.view.element.style.backgroundColor = "green"
+            }
+        },
+Save cây chưa hoàn thiện
